@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="mermaid.min.js"></script>
+</head>
+<body>
+    <div id="theGraph">
+    </div>
+    <script>
+        var code=`sequenceDiagram
+    participant Alice
+    participant Bob
+    Alice->>John: Hello John, how are you?
+    loop Healthcheck
+        John->>John: Fight against hypochondria
+    end
+    Note right of John: Rational thoughts <br/>prevail!
+    John-->>Alice: Great!
+    John->>Bob: How about you?
+    Bob-->>John: Jolly good!
+    `;
+    console.log(window.btoa(code))
+    mermaid.render('theGraph', code, function(svgCode) {
+        console.log(svgCode)
+        output.innerHTML = svgCode;
+    });
+</script>
+    
+</body>
+</html>

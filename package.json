@@ -1,0 +1,54 @@
+{
+	"name": "markdown-code-to-png",
+	"displayName": "Markdown Mermaid Expand to PNG",
+	"description": "Replacs code blocks with PNGs and vice versa",
+	"version": "1.0.0",
+	"engines": {
+		"vscode": "^1.56.0"
+	},
+	"categories": [
+		"Other"
+	],
+	"activationEvents": [
+		"onCommand:markdown-code-to-png.topng",
+		"onCommand:markdown-png-to-code.topng"
+	],
+	"main": "./out/extension.js",
+	"contributes": {
+		"commands": [
+			{
+				"command": "markdown-code-to-png.topng",
+				"title": "Convert Markdown code to PNG"
+			},
+			{
+				"command": "markdown-png-to-code.topng",
+				"title": "Convert Markdown with mermaid PNGs to code"
+			}
+
+		]
+	},
+	"scripts": {
+		"vscode:prepublish": "npm run compile",
+		"compile": "tsc -p ./",
+		"watch": "tsc -watch -p ./",
+		"pretest": "npm run compile && npm run lint",
+		"lint": "eslint src --ext ts",
+		"test": "node ./out/test/runTest.js"
+	},
+	"devDependencies": {
+		"@types/vscode": "^1.56.0",
+		"@types/glob": "^7.1.3",
+		"@types/mocha": "^8.0.4",
+		"@types/node": "^12.11.7",
+		"eslint": "^7.19.0",
+		"@typescript-eslint/eslint-plugin": "^4.14.1",
+		"@typescript-eslint/parser": "^4.14.1",
+		"glob": "^7.1.6",
+		"mocha": "^8.2.1",
+		"typescript": "^4.1.3",
+		"vscode-test": "^1.5.0"
+	},
+	"dependencies": {
+		"jimp": "^0.16.1"
+	}
+}
