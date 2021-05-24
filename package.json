@@ -2,7 +2,7 @@
 	"name": "markdown-code-to-png",
 	"displayName": "Markdown Mermaid Expand to PNG",
 	"description": "Replaces Mermaid code blocks with PNGs and vice versa",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"engines": {
 		"vscode": "^1.56.0"
 	},
@@ -10,7 +10,7 @@
 	"categories": [
 		"Other"
 	],
-	"repository":"https://github.com/luisalvesmartins/Markdown-Mermaid-Expand-to-PNG",
+	"repository": "https://github.com/luisalvesmartins/Markdown-Mermaid-Expand-to-PNG",
 	"activationEvents": [
 		"onCommand:markdown-code-to-png.topng",
 		"onCommand:markdown-png-to-code.topng"
@@ -26,7 +26,6 @@
 				"command": "markdown-png-to-code.topng",
 				"title": "Convert Markdown with mermaid PNGs to code"
 			}
-
 		]
 	},
 	"scripts": {
