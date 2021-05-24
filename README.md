@@ -10,9 +10,13 @@ This will allow you to transform all the mermaid tags to PNG.
 
 It will also enable you to do the reverse and retrieve the original text from the PNGs back to the markdown file.
 
-Example:
+See it in action. Converting Markdown with Mermaid blocks to PNG:
+![demo1](demo1.gif)
 
-Please test this with the sample.md file in the sample folder. Reproduce here for reference:
+Converting Markdown with PNGs back to Mermaid code:
+![demo2](demo2.gif)
+
+You can test this with this [sample.md](https://raw.githubusercontent.com/luisalvesmartins/Markdown-Mermaid-Expand-to-PNG/main/sample/sample.md) file:
 
 ~~~markdown
 #Markdown example file

@@ -20,11 +20,11 @@
 		"commands": [
 			{
 				"command": "markdown-code-to-png.topng",
-				"title": "Convert Markdown code to PNG"
+				"title": "Convert Markdown with Mermaid code to PNG"
 			},
 			{
 				"command": "markdown-png-to-code.topng",
-				"title": "Convert Markdown with mermaid PNGs to code"
+				"title": "Convert Markdown with Mermaid PNGs to code"
 			}
 		]
 	},
