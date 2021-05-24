@@ -6,9 +6,11 @@
 	"engines": {
 		"vscode": "^1.56.0"
 	},
+	"publisher": "LuisAlvesMartins",
 	"categories": [
 		"Other"
 	],
+	"repository":"https://github.com/luisalvesmartins/Markdown-Mermaid-Expand-to-PNG",
 	"activationEvents": [
 		"onCommand:markdown-code-to-png.topng",
 		"onCommand:markdown-png-to-code.topng"
