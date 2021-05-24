@@ -77,10 +77,14 @@ Running the command "Convert Markdown Mermaid PNGs to Code" the file will be tra
 
 ## Release Notes
 
+### 1.3.0
+
+Fix documentation
+
 ### 1.1.0
 
 Initial release.
 
 ### Useful links
 
-* [Mermaid](https://https://mermaid-js.github.io/)
+* [Mermaid](https://mermaid-js.github.io/)
