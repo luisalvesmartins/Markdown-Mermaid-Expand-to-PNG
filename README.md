@@ -22,7 +22,7 @@ A graph:
 ```mermaid
 graph LR
     Start --> Stop
-'``
+\```
 
 A sequence diagram:
 
@@ -32,7 +32,7 @@ sequenceDiagram
     participant L as Luis
     A->>L: Hello Luis, how are you?
     L->>A: Great!
-'``
+\```
 
 A pie chart:
 
@@ -43,7 +43,7 @@ pie
     "Potassium" : 50.05
     "Magnesium" : 10.01
     "Iron" :  5
-'``
+\```
 ```
 
 After executing the command "Convert Markdown code to PNG" it will be transformed to this file and 3 png files are created in the same folder:
@@ -77,9 +77,9 @@ Running the command "Convert Markdown Mermaid PNGs to Code" the file will be tra
 
 ## Release Notes
 
-### 1.0.0
+### 1.1.0
 
-Initial release. Not yet fully tested
+Initial release.
 
 ### Useful links
 
