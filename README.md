@@ -73,6 +73,8 @@ Running the command "Convert Markdown Mermaid PNGs to Code" the file will be tra
 
 > Note: If you edit the PNG files and not preserve the metadata, you'll lose the ability to revert to the original markdown file.
 
+> Note: File newline delimeter must be CRLF
+
 ## Requirements
 
 - JIMP for Image conversion - JPG to PNG
