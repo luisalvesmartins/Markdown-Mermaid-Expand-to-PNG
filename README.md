@@ -94,3 +94,7 @@ Initial release.
 ### Useful links
 
 * [Mermaid](https://mermaid-js.github.io/)
+* [VS Code extension](https://marketplace.visualstudio.com/items?itemName=LuisAlvesMartins.markdown-code-to-png)
+
+### Note:
+For the solution to run there is an http call to mermaid server (mermaid.ink).
