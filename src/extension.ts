@@ -37,7 +37,7 @@ export async function activate(context: vscode.ExtensionContext) {
 				}
 				console.log("Block:" + p + " to " + pEnd);
 				blockNumber++;
-				var newBlock="![block" + blockNumber + "](" + fileName + "." + blockNumber + ".png)]";
+				var newBlock="![block" + blockNumber + "](" + fileName + "." + blockNumber + ".png)";
 				var mermaid=markdown.substr(p+12,pEnd-p-12);
 				markdown=markdown.substr(0,p-1) + newBlock + markdown.substr(pEnd+3);
 				pEnd=p+newBlock.length;
